@@ -1,0 +1,89 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+<script type="text/javascript" src="species_selection.js"></script>
+<script type="text/javascript" src="hide_show.js"></script>
+
+<div class="mainTitle">Search NEMBASE4 for a specific protein domain identifier</div><br>
+
+<div class="mainMed">Enter a domain ID from one of the domain and pattern databases listed below, then
+	hit the 'Go' button to retrieve the details of instances of that domain in Nembase. You can limit the species searched using the Species selection tool below. <br>
+	<br>
+</div>
+<table class="tablephp1">
+	<div class="mainMed">
+		<tr>
+			<td>Database</td><td>e.g.</td>
+			<td>Database</td><td>e.g.</td>
+		</tr>
+		<tr>
+			<td class="tablephp21">Pfam</td><td class="tablephp21">PF01968</td>
+			<td class="tablephp21">HMMPanther</td><td class="tablephp21">PTHR11588</td>
+		</tr>
+		<tr>
+			<td class="tablephp21">superfamily</td><td class="tablephp21">SSF52490</td>
+			<td class="tablephp21">BlastProDom</td><td class="tablephp21">PD000944</td>
+		</tr>
+		<tr>
+			<td class="tablephp21">PIR</td><td class="tablephp21">PIRSF002116</td>
+			<td class="tablephp21">Smart</td><td class="tablephp21">SM00326</td>
+		</tr>
+		<tr>
+			<td class="tablephp21">Tigr</td><td class="tablephp21">TIGR00049</td>
+			<td class="tablephp21">ProfileScan</td><td class="tablephp21">PS50939</td>
+		</tr>
+		<tr>
+			<td class="tablephp21">ScanRegExp</td><td class="tablephp21">PS01031</td>
+			<td class="tablephp21">InterPro</td><td class="tablephp21">IPR000217</td>
+		</tr>
+	</div>
+		<tr>
+			<td colspan=4><form method="post" action="../nembase4/domain.php">
+				<table width="100%" class="tablephp21">
+					<tr>
+						<td>
+							By default all species are selected, to manually select by clade or species <a href="javascript:toggle('hide')">click here</a>
+							<div id="hide" style="display: none;">
+								<table>
+								<tr>
+									<td valign="top"><input TYPE="hidden" NAME="spec" value ="0">
+										<!--#include virtual="species_db_queries.php" -->
+								   </td>
+							   </tr>
+						       </table>
+						   </div>
+						</td>
+					</tr>
+					<tr>
+					  <td colspan=3>
+							<table align="center">
+								<tr height=10></tr>
+								<tr>
+									<td><div class="mainTitle">Domain ID</div></td>
+									<td align=center><input type="text" name="domain"></td>
+									<td align=left><input type="submit" value="Go"></td>
+								</tr>
+								<tr height=10></tr>
+							</table>
+						</td>
+					</tr>						
+				</table>
+			
+			</form></td>
+		</tr>		
+</table>
+
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>

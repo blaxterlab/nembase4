@@ -1,0 +1,112 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+
+<TABLE class="tablephp4">
+   <TR>
+      <TD><div class="mainTitle">CladeV nematodes</div></TD>
+   </TR>
+   <TR>
+      <TD>Clade V includes both freeliving and parasitic nematodes. The Strongylida are
+         vertenrate parasites, while the Diplogasterida and Rhabditida are (mostly) freeliving bacteriovores.<br><br>
+      </TD>
+   </TR>
+   <TR>
+      <TD>
+         <TABLE class="tablephp4">
+            <TR >
+               <TD></TD>
+               <TD></TD>
+               <TD>description</TD>
+               <TD>EST effort</TD>
+            </TR>
+            <tr></tr>
+               <TD ><i>Haemonchus contortus</I><br><IMG SRC="species/HCC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>Haemonchus contortus</I> is also known as the barber's pole worm of sheep. It is a blood feeding
+                  nematode, and is a major pathogen of sheep flocks worldwide.
+               </TD>
+               <TD > ESTs are being sequenced in Edinburgh in collaboration with David Knox (Moredun Institute;
+                  libraries), Doug Jasmer (WA, USA; libraries) and the Pathogen Sequencing Unit at the Sanger Institute.
+               </TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+            	<TD ><i>Teladorsagia circumcincta</I><br><IMG SRC="species/TCC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>T. circumcincta</I> (also previously called <I>Ostertagia circumcincta</I>) is a parasite of
+                  sheep of economic importance to UK agriculture.
+               </TD>
+               <TD > ESTs are being sequenced in Edinburgh in collaboration with David Knox (Moredun Institute;
+                  libraries), and the Pathogen Sequencing Unit at the Sanger Institute.
+               </TD>
+            </TR>
+             <tr height=20></tr>
+           <TR >
+               <TD ><i>Necator americanus</I><br><IMG SRC="species/NAC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>Necator americanus</I> is one of the human hookworms, which infect an estimated one billion
+                  prople worldwide. It is a blood-feeder and is responsible for significant morbidity due to
+                  anaemia, and infection can be lethal.
+               </TD>
+               <TD > ESTs are being sequenced in Edinburgh in collaboration with David Pritchard (Nottingham;
+                  libraries), and the Pathogen Sequencing Unit at the Sanger Institute.
+               </TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><I>Nippostrongylus brasiliensis</I><br><IMG SRC="species/NBC.gif" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>N. brasiliensis</I> is a rodent parasite that is used as a model for the study of the immune resonses to infection.</TD>
+               <TD > ESTs are being analysed in Edinburgh in collaboration with Rick Maizels (Edinburgh).</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Ancylostoma caninum</I><br><IMG SRC="species/ACC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>A. caninum</I> is a dog hookworm, closely related to the human hookworm, <I>A. duodenale</I></TD>
+               <TD > ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <td><i>Ancylostoma duodenale</I></TD>
+               <TD></TD>
+               <TD><I>A. duodenale</I> is one of the human hookworms, which infect an estimated one billion
+                  prople worldwide. It is a blood-feeder and is responsible for significant morbidity due to
+                  anaemia, and infection can be lethal.
+               </TD>
+               <TD>ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Caenorhabditis elegans</I><br></TD>
+               <TD ></TD>
+               <TD ><I>C. elegans</I> is a freeliving bacteriovore. The complete genome has been sequenced.</TD>
+               <TD > 140,000 ESTs have been sequenced, primarily by Yuji Kohara's group in NIG, Japan.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Pristionchus pacificus</I><br><IMG SRC="species/PPC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>P. pacificus</I> is a freeliving bacteriovore, developed as a sattelite genetic model to <I>C. elegans.</I></TD>
+               <TD >ESTs are being sequenced in Washington University St Louis. </TD>
+            </TR>
+         </TABLE>
+      </TD>
+   </TR>
+</TABLE>
+
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>

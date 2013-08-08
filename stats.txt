@@ -1,0 +1,496 @@
+^^setFontFace(Courier)
+^^setFontSize(14)
+^^setBold(true)
+^^setSpeed(60)
+^^setBackgroundColor(121,151,164)
+^^setForegroundColor (255,255,0)
+Current NEMBASE Statistics
+__________________________
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Ascaris lumbricoides
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	1817
+Clusters    :	853
+Libraries   :	1
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Ascaris suum
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	39041
+Clusters    :	8544
+Libraries   :	24
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Ancylostoma ceylanicum
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	10551
+Clusters    :	3489
+Libraries   :	9
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Brugia malayi
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	25829
+Clusters    :	9814
+Libraries   :	25
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Globodera pallida
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	3900
+Clusters    :	2564
+Libraries   :	4
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Globodera rostochiensis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	5926
+Clusters    :	2863
+Libraries   :	3
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Haemonchus contortus
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	22249
+Clusters    :	4967
+Libraries   :	13
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Heterodera glycines
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	24140
+Clusters    :	9165
+Libraries   :	13
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Heterodera schachtii
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	2785
+Clusters    :	1370
+Libraries   :	3
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Meloidogyne incognita
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	19406
+Clusters    :	5868
+Libraries   :	10
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Meloidogyne paranaensis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	3638
+Clusters    :	1636
+Libraries   :	2
+last update :	03/05
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Necator americanus
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	4765
+Clusters    :	2293
+Libraries   :	3
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Nippostrongylus brasiliensis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	1234
+Clusters    :	743
+Libraries   :	3
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Ostertagia ostertagi
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	6749
+Clusters    :	2365
+Libraries   :	10
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Onchocerca volvulus
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	14786
+Clusters    :	5102
+Libraries   :	10
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Pratylenchus penetrans
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	1908
+Clusters    :	408
+Libraries   :	1
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Pristionchus pacificus
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	12013
+Clusters    :	4287
+Libraries   :	6
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Parastrongyloides trichosuri
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	7749
+Clusters    :	3114
+Libraries   :	6
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Pratylenchus vulnus
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	2457
+Clusters    :	857
+Libraries   :	2
+last update :	03/05
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Radopholus similis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	1097
+Clusters    :	597
+Libraries   :	2
+last update :	03/05
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Strongyloides ratti
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	14113
+Clusters    :	3960
+Libraries   :	10
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Strongyloides stercoralis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	11365
+Clusters    :	3681
+Libraries   :	3
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Toxocara canis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	4791
+Clusters    :	1537
+Libraries   :	6
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Teladorsagia circumcincta
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	4312
+Clusters    :	1654
+Libraries   :	4
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Trichuris muris
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	2714
+Clusters    :	1578
+Libraries   :	1
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Trichuris vulpis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	2959
+Clusters    :	1258
+Libraries   :	1
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Wuchereria bancrofti
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	4871
+Clusters    :	2222
+Libraries   :	3
+last update :	03/05
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Zeldia punctata
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	390
+Clusters    :	209
+Libraries   :	1
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Ancylostoma caninum
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	9146
+Clusters    :	4233
+Libraries   :	5
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Dirofilaria immitis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	3762
+Clusters    :	1783
+Libraries   :	2
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Litomosoides sigmodontis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	2699
+Clusters    :	1631
+Libraries   :	2
+last update :	03/05
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Meloidogyne arenaria
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	4944
+Clusters    :	2601
+Libraries   :	3
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Meloidogyne chitwoodi
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	11938
+Clusters    :	3793
+Libraries   :	4
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Meloidogyne hapla
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	23940
+Clusters    :	6944
+Libraries   :	6
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Meloidogyne javanica
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	7274
+Clusters    :	3368
+Libraries   :	8
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Trichinella spiralis
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	10467
+Clusters    :	3726
+Libraries   :	7
+last update :	12/04
+^^setForegroundColor (0,0,0)
+-------------------------
+^^setFontSize(12)
+^^setForegroundColor (255,255,17)
+^^setItalic(true)
+Xiphinema index
+^^setBold(false)
+^^setForegroundColor (255,255,0)
+^^setItalic(false)
+Sequences   :	9283
+Clusters    :	4591
+Libraries   :	7
+last update :	03/05
+^^setForegroundColor (0,0,0)
+-------------------------
+
+
+
+
+
+
+^^pause(200)

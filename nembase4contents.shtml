@@ -1,0 +1,155 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/nembase4.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+
+<title>www.nematodes.org</title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+
+	    <!-- InstanceBeginEditable name="Bodyeditregion" -->
+
+                    	<h1 align="left">NEMBASE4 data summary - numbers and sources</h1>
+                    	<table cellspacing="4" padding=1>
+						<tr><td valign="bottom"><strong>NEMBASE4 identifier</strong></td>
+						<td valign="bottom"><strong>Species<em>&nbsp;</em></strong></td>
+						<td valign="bottom"><div align="center"><strong>Clade</strong></div></td>
+						<td valign="bottom"><strong>Life habit</strong></td>
+						<td valign="bottom"><div align="right"><strong>Number of ESTs</strong></div></td>
+						<td valign="bottom"><div align="right"><strong>Number of cDNA libraries</strong></div></td>
+						<td valign="bottom"><div align="right"><strong>Number of NEMBASE4 clusters</strong></div></td>
+						<td valign="bottom"><strong>References</strong></td>
+						</tr>
+<tr><td><strong>ABC</strong></td><td><em>Ancylostoma&nbsp;braziliense</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">19</div></td><td><div align="right">1</div></td><td><div align="right">18</div></td><td class="mainSmall">(Costa et al., 2008)</td></tr>
+<tr><td><strong>ACC</strong></td><td><em>Ancylostoma&nbsp;caninum</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">78935</div></td><td><div align="right">15</div></td><td><div align="right">25911</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>AYC</strong></td><td><em>Ancylostoma&nbsp;ceylanicum</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">10551</div></td><td><div align="right">9</div></td><td><div align="right">3489</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>AAC</strong></td><td><em>Angiostrongylus&nbsp;cantonensis</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">1191</div></td><td><div align="right">4</div></td><td><div align="right">650</div></td><td class="mainSmall">(He et al., 2009)</td></tr>
+<tr><td><strong>AIC</strong></td><td><em>Anisakis&nbsp;simplex</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">473</div></td><td><div align="right">1</div></td><td><div align="right">320</div></td><td class="mainSmall">b</td></tr>
+<tr><td><strong>ALC</strong></td><td><em>Ascaris&nbsp;lumbricoides</em></td><td><div align="center">III</div></td><td>vgp</td><td><div align="right">1822</div></td><td><div align="right">1</div></td><td><div align="right">853</div></td><td class="mainSmall">(Wasmuth et al., 2008)</td></tr>
+<tr><td><strong>ASC</strong></td><td><em>Ascaris&nbsp;suum</em></td><td><div align="center">III</div></td><td>vgp</td><td><div align="right">55343</div></td><td><div align="right">38</div></td><td><div align="right">13284</div></td><td class="mainSmall">(Wasmuth et al., 2008)</td></tr>
+<tr><td><strong>BMC</strong></td><td><em>Brugia&nbsp;malayi</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">25844</div></td><td><div align="right">25</div></td><td><div align="right">9822</div></td><td class="mainSmall">(Blaxter et al., 1996; Blaxter et al., 2002; Li et al., 2009)}</td></tr>
+<tr><td><strong>BPC</strong></td><td><em>Brugia&nbsp;pahangi</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">28</div></td><td><div align="right">2</div></td><td><div align="right">28</div></td><td class="mainSmall">(Emes et al., 2002)</td></tr>
+<tr><td><strong>BUC</strong></td><td><em>Bursaphelenchus&nbsp;mucronatus</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">3191</div></td><td><div align="right">1</div></td><td><div align="right">2264</div></td><td class="mainSmall">(Kikuchi et al., 2007)</td></tr>
+<tr><td><strong>BXC</strong></td><td><em>Bursaphelenchus&nbsp;xylophilus</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">13338</div></td><td><div align="right">6</div></td><td><div align="right">6660</div></td><td class="mainSmall">(Kikuchi et al., 2007)</td></tr>
+<tr><td><strong>CBC</strong></td><td><em>Caenorhabditis&nbsp;brenneri</em></td><td><div align="center">V</div></td><td>fl</td><td><div align="right">29443</div></td><td><div align="right">3</div></td><td><div align="right">10045</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>CGC</strong></td><td><em>Caenorhabditis&nbsp;briggsae</em></td><td><div align="center">V</div></td><td>fl*</td><td><div align="right">2406</div></td><td><div align="right">1</div></td><td><div align="right">1450</div></td><td class="mainSmall">(Stein et al., 2003)</td></tr>
+<tr><td><strong>CJC</strong></td><td><em>Caenorhabditis&nbsp;japonica</em></td><td><div align="center">V</div></td><td>fl*</td><td><div align="right">31598</div></td><td><div align="right">0</div></td><td><div align="right">8970</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>CRC</strong></td><td><em>Caenorhabditis&nbsp;remanei</em></td><td><div align="center">V</div></td><td>fl</td><td><div align="right">20166</div></td><td><div align="right">2</div></td><td><div align="right">9148</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>CSC</strong></td><td><em>Caenorhabditis&nbsp;sp_5_AC-2008</em></td><td><div align="center">V</div></td><td>fl</td><td><div align="right">3866</div></td><td><div align="right">1</div></td><td><div align="right">2245</div></td><td class="mainSmall">c</td></tr>
+<tr><td><strong>DVC</strong></td><td><em>Dictyocaulus&nbsp;viviparus</em></td><td><div align="center">IV</div></td><td>vlp</td><td><div align="right">4423</div></td><td><div align="right">3</div></td><td><div align="right">2433</div></td><td class="mainSmall">(Ranganathan et al., 2007)</td></tr>
+<tr><td><strong>DIC</strong></td><td><em>Dirofilaria&nbsp;immitis</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">3762</div></td><td><div align="right">2</div></td><td><div align="right">1783</div></td><td class="mainSmall">(Yin et al., 2006)</td></tr>
+<tr><td><strong>DAC</strong></td><td><em>Ditylenchus&nbsp;africanus</em></td><td><div align="center">IV</div></td><td>pxp</td><td><div align="right">4289</div></td><td><div align="right">1</div></td><td><div align="right">2513</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>GMC</strong></td><td><em>Globodera&nbsp;mexicana</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">17</div></td><td><div align="right">1</div></td><td><div align="right">17</div></td><td class="mainSmall">(Grenier et al., 2002)</td></tr>
+<tr><td><strong>GPC</strong></td><td><em>Globodera&nbsp;pallida</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">3900</div></td><td><div align="right">4</div></td><td><div align="right">2564</div></td><td class="mainSmall">(Jones et al., 2009)</td></tr>
+<tr><td><strong>GRC</strong></td><td><em>Globodera&nbsp;rostochiensis</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">11658</div></td><td><div align="right">6</div></td><td><div align="right">4540</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>HCC</strong></td><td><em>Haemonchus&nbsp;contortus</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">22257</div></td><td><div align="right">14</div></td><td><div align="right">4972</div></td><td class="mainSmall">(Wasmuth et al., 2008)</td></tr>
+<tr><td><strong>HGC</strong></td><td><em>Heterodera&nbsp;glycines</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">24167</div></td><td><div align="right">14</div></td><td><div align="right">9174</div></td><td class="mainSmall">a, d</td></tr>
+<tr><td><strong>HSC</strong></td><td><em>Heterodera&nbsp;schachtii</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">2791</div></td><td><div align="right">3</div></td><td><div align="right">1371</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>HBC</strong></td><td><em>Heterorhabditis&nbsp;bacteriophora</em></td><td><div align="center">V</div></td><td>epn</td><td><div align="right">42354</div></td><td><div align="right">8</div></td><td><div align="right">10483</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>LSC</strong></td><td><em>Litomosoides&nbsp;sigmodontis</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">2699</div></td><td><div align="right">3</div></td><td><div align="right">1631</div></td><td class="mainSmall">(Allen et al., 2000)</td></tr>
+<tr><td><strong>LLC</strong></td><td><em>Loa&nbsp;loa</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">27</div></td><td><div align="right">1</div></td><td><div align="right">26</div></td><td class="mainSmall">e</td></tr>
+<tr><td><strong>MAC</strong></td><td><em>Meloidogyne&nbsp;arenaria</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">4979</div></td><td><div align="right">5</div></td><td><div align="right">2623</div></td><td class="mainSmall">f</td></tr>
+<tr><td><strong>MCC</strong></td><td><em>Meloidogyne&nbsp;chitwoodi</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">11938</div></td><td><div align="right">4</div></td><td><div align="right">3793</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>MHC</strong></td><td><em>Meloidogyne&nbsp;hapla</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">23992</div></td><td><div align="right">6</div></td><td><div align="right">6946</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>MIC</strong></td><td><em>Meloidogyne&nbsp;incognita</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">19806</div></td><td><div align="right">11</div></td><td><div align="right">5985</div></td><td class="mainSmall">(Dubreuil et al., 2007)</td></tr>
+<tr><td><strong>MJC</strong></td><td><em>Meloidogyne&nbsp;javanica</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">7275</div></td><td><div align="right">8</div></td><td><div align="right">3369</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>MPC</strong></td><td><em>Meloidogyne&nbsp;paranaensis</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">3638</div></td><td><div align="right">2</div></td><td><div align="right">1636</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>NAC</strong></td><td><em>Necator&nbsp;americanus</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">5019</div></td><td><div align="right">4</div></td><td><div align="right">2446</div></td><td class="mainSmall">(Rabelo et al., 2009)</td></tr>
+<tr><td><strong>NBC</strong></td><td><em>Nippostrongylus&nbsp;brasiliensis</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">13673</div></td><td><div align="right">8</div></td><td><div align="right">3569</div></td><td class="mainSmall">(Harcus et al., 2004) and *</td></tr>
+<tr><td><strong>ODC</strong></td><td><em>Oesophagostomum&nbsp;dentatum</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">299</div></td><td><div align="right">2</div></td><td><div align="right">249</div></td><td class="mainSmall">(Cottee et al., 2006)</td></tr>
+<tr><td><strong>OFC</strong></td><td><em>Onchocerca&nbsp;flexuosa</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">2063</div></td><td><div align="right">2</div></td><td><div align="right">1525</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>OCC</strong></td><td><em>Onchocerca&nbsp;ochengi</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">59</div></td><td><div align="right">1</div></td><td><div align="right">37</div></td><td class="mainSmall">g</td></tr>
+<tr><td><strong>OVC</strong></td><td><em>Onchocerca&nbsp;volvulus</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">14791</div></td><td><div align="right">10</div></td><td><div align="right">5105</div></td>
+  <td class="mainSmall">(Lizotte-Waniewski et al., 2000; Pellerone et al., 2003)</td>
+</tr>
+<tr><td><strong>OOC</strong></td><td><em>Ostertagia&nbsp;ostertagi</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">6761</div></td><td><div align="right">10</div></td><td><div align="right">2367</div></td><td class="mainSmall">(Vercauteren et al., 2003)</td></tr>
+<tr><td><strong>PSC</strong></td><td><em>Panagrolaimus&nbsp;superbus</em></td><td><div align="center">IV</div></td><td>fl</td><td><div align="right">7606</div></td><td><div align="right">0</div></td><td><div align="right">3957</div></td><td class="mainSmall">h</td></tr>
+<tr><td><strong>PTC</strong></td><td><em>Parastrongyloides&nbsp;trichosuri</em></td><td><div align="center">IV</div></td><td>vgp*</td><td><div align="right">7776</div></td><td><div align="right">6</div></td><td><div align="right">3128</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>PAC</strong></td><td><em>Parelaphostrongylus&nbsp;tenuis</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">99</div></td><td><div align="right">1</div></td><td><div align="right">95</div></td><td class="mainSmall">i</td></tr>
+<tr><td><strong>PEC</strong></td><td><em>Pratylenchus&nbsp;penetrans</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">1919</div></td><td><div align="right">1</div></td><td><div align="right">410</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>PVC</strong></td><td><em>Pratylenchus&nbsp;vulnus</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">5762</div></td><td><div align="right">3</div></td><td><div align="right">1824</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>PPC</strong></td><td><em>Pristionchus&nbsp;pacificus</em></td><td><div align="center">V</div></td><td>fl</td><td><div align="right">35736</div></td><td><div align="right">11</div></td><td><div align="right">10577</div></td><td class="mainSmall">(Srinivasan et al., 2004)</td></tr>
+<tr><td><strong>RSC</strong></td><td><em>Radopholus&nbsp;similis</em></td><td><div align="center">IV</div></td><td>pep</td><td><div align="right">7164</div></td><td><div align="right">5</div></td><td><div align="right">3871</div></td><td class="mainSmall">(Jacob et al., 2008) and j</td></tr>
+<tr><td><strong>SCC</strong></td><td><em>Steinernema&nbsp;carpocapsae</em></td><td><div align="center">IV</div></td><td>epn</td><td><div align="right">44</div></td><td><div align="right">1</div></td><td><div align="right">43</div></td><td class="mainSmall">(Hao et al., 2010)</td></tr>
+<tr><td><strong>SFC</strong></td><td><em>Steinernema&nbsp;feltiae</em></td><td><div align="center">IV</div></td><td>epn</td><td><div align="right">83</div></td><td><div align="right">1</div></td><td><div align="right">74</div></td><td class="mainSmall">(Gal et al., 2003)</td></tr>
+<tr><td><strong>SRC</strong></td><td><em>Strongyloides&nbsp;ratti</em></td><td><div align="center">IV</div></td><td>vgp*</td><td><div align="right">26400</div></td><td><div align="right">12</div></td><td><div align="right">5058</div></td><td class="mainSmall">(Evans et al., 2008)</td></tr>
+<tr><td><strong>SSC</strong></td><td><em>Strongyloides&nbsp;stercoralis</em></td><td><div align="center">IV</div></td><td>vgp*</td><td><div align="right">11365</div></td><td><div align="right">3</div></td><td><div align="right">3681</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>TDC</strong></td><td><em>Teladorsagia&nbsp;circumcincta</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">6011</div></td><td><div align="right">5</div></td><td><div align="right">2262</div></td><td class="mainSmall">(Parkinson et al., 2004; Nisbet et al., 2008)</td></tr>
+<tr><td><strong>TLC</strong></td><td><em>Toxascaris&nbsp;leonina</em></td><td><div align="center">III</div></td><td>vgp</td><td><div align="right">434</div></td><td><div align="right">1</div></td><td><div align="right">279</div></td><td class="mainSmall">k</td></tr>
+<tr><td><strong>TCC</strong></td><td><em>Toxocara&nbsp;canis</em></td><td><div align="center">III</div></td><td>vgp**</td><td><div align="right">4791</div></td><td><div align="right">6</div></td><td><div align="right">1537</div></td><td class="mainSmall">(Parkinson et al., 2004; Callister et al., 2008) and l</td></tr>
+<tr><td><strong>TSC</strong></td><td><em>Trichinella&nbsp;spiralis</em></td><td><div align="center">I</div></td><td>vgp**</td><td><div align="right">24678</div></td><td><div align="right">8</div></td><td><div align="right">8509</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>TIC</strong></td><td><em>Trichostrongylus&nbsp;vitrinus</em></td><td><div align="center">V</div></td><td>vgp</td><td><div align="right">367</div></td><td><div align="right">2</div></td><td><div align="right">359</div></td><td class="mainSmall">(Nisbet and Gasser, 2004)</td></tr>
+<tr><td><strong>TMC</strong></td><td><em>Trichuris&nbsp;muris</em></td><td><div align="center">I</div></td><td>vgp</td><td><div align="right">6891</div></td><td><div align="right">3</div></td><td><div align="right">3037</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>TVC</strong></td><td><em>Trichuris&nbsp;vulpis</em></td><td><div align="center">I</div></td><td>vgp</td><td><div align="right">2959</div></td><td><div align="right">1</div></td><td><div align="right">1258</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>WBC</strong></td><td><em>Wuchereria&nbsp;bancrofti</em></td><td><div align="center">III</div></td><td>vtp</td><td><div align="right">4871</div></td><td><div align="right">3</div></td><td><div align="right">2222</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>XIC</strong></td><td><em>Xiphinema&nbsp;index</em></td><td><div align="center">I</div></td><td>pxp</td><td><div align="right">9283</div></td><td><div align="right">7</div></td><td><div align="right">4591</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>ZPC</strong></td><td><em>Zeldia&nbsp;punctata</em></td><td><div align="center">IV</div></td><td>fl</td><td><div align="right">390</div></td><td><div align="right">1</div></td><td><div align="right">209</div></td><td class="mainSmall">a</td></tr>
+<tr><td><strong>Total</strong></td><td><strong>62 species&nbsp;</strong></td>
+<td><div align="center"></div></td><td></td><td><div align="right"><strong>679480</strong></div></td>
+<td><div align="right"><strong>324</strong></div></td>
+<td><div align="right"><strong>233295</strong></div></td>
+<td class="mainSmall"></td></tr>
+</table>
+
+<p>
+Clade: Nematode clades are as defined in Blaxter et al 1998 (Blaxter et al., 1998) (see also (Meldal et al., 2007)). I: Dorylaimia, including Dorylaimida and Trichocephalida; III: Spiruria, including Spiruromorpha and Ascaridida; IV: Tylenchia, including Cephalobomorpha, Strongyloidoiea, and Tylenchida; V: Rhabditia, including Rhabditida, Strongylida, and Diplogasterida. There are no Clade II (Enoplia) expressed sequence tag (EST) datasets at present.<br>
+Life habit: epn: entomopathogenic nematode; fl: free-living; fl* free-living, but associated with arthropod transport hosts; pxp: plant exoparasite; vgp: vertebrate gut parasite; vgp*: vertebrate gut parasite with free-living cycle(s); vgp**: vertebrate gut parasite with intracellular resting stage; vtp: vertebrate tissue parasite.<br>
+<br>
+a No specific publication associated with this dataset; data produced by Washington University of St. Louis Genome Sequencing Center (see Wasmuth et al., 2008))<br>
+b No specific publication associated with this dataset; data produced by College of Medicine, Pusan University, Korea.<br>
+c Asher Cutter and Mark Blaxter, unpublished data.<br>
+d Some data produced by National Agricultural Research Center for Hokkaido Region, Sapporo, Hokkaido 062-8555, Japan.<br>
+e No specific publication associated with this dataset; data produced by Laboratory of Parasitic Diseases, National Institute of Allergy and Infectious Diseases, NIAID, NIH, USA.<br>
+f No specific publication associated with this dataset; data produced by College of Plant Protection, Nanjing Agricultural University, Weigang, Nanjing, China.<br>
+g No specific publication associated with this dataset; data produced by Molecular Parasitology, Department of Biological Sciences, Smith College, Northampton, USA.<br>
+h Ann Burnell and colleagues, UI Maynooth, unpublished data.<br>
+i No specific publication associated with this dataset; data produced by James A. Baker Institute, Cornell University, Ithaca, NY, USA<br>
+j No specific publication associated with this dataset; data produced by Department of Plant Pathology, College of Natural Resources and Environment, South China Agricultural University, Guangdong, China.<br>
+k No specific publication associated with this dataset; data produced by Department of Parasitology, Pusan National University, School of Medicine, Seo-gu, Busan, Korea.<br>
+l No specific publication associated with this dataset; data produced by Department of Veterinary Medicine, Rongchang Campus, Southwest University, Chongqing Municipality, China<br>
+<br>
+References<br>
+<br>
+Allen, J.E., Daub, J., Guiliano, D., McDonnell, A., Lizotte-Waniewski, M., Taylor, D.W., Blaxter, M., 2000. Analysis of genes expressed at the infective larval stage validates utility of Litomosoides sigmodontis as a murine model for filarial vaccine development. Infect Immun 68, 5454-5458.<br>
+Blaxter, M., Daub, J., Guiliano, D., Parkinson, J., Whitton, C., 2002. The Brugia malayi genome project: expressed sequence tags and gene discovery. Trans R Soc Trop Med Hyg 96, 7-17.<br>
+Blaxter, M.L., Raghavan, N., Ghosh, I., Guiliano, D., Lu, W., Williams, S.A., Slatko, B., Scott, A.L., 1996. Genes expressed in Brugia malayi infective third stage larvae. Molecular and Biochemical Parasitology 77, 77-96.<br>
+Blaxter, M.L., De Ley, P., Garey, J.R., Liu, L.X., Scheldeman, P., Vierstraete, A., Vanfleteren, J.R., Mackey, L.Y., Dorris, M., Frisse, L.M., Vida, J.T., Thomas, W.K., 1998. A molecular evolutionary framework for the phylum Nematoda. Nature 392, 71-75.<br>
+Callister, D.M., Winter, A.D., Page, A.P., Maizels, R.M., 2008. Four abundant novel transcript genes from Toxocara canis with unrelated coding sequences share untranslated region tracts implicated in the control of gene expression. Mol Biochem Parasitol 162, 60-70.<br>
+Costa, A.F., Gomes-Ruiz, A.C., Rabelo, E.M., 2008. Identification of gender-regulated genes in Ancylostoma braziliense by real-time RT-PCR. Vet Parasitol 153, 277-284.<br>
+Cottee, P.A., Nisbet, A.J., Abs El-Osta, Y.G., Webster, T.L., Gasser, R.B., 2006. Construction of gender-enriched cDNA archives for adult Oesophagostomum dentatum by suppressive-subtractive hybridization and a microarray analysis of expressed sequence tags. Parasitology 132, 691-708.<br>
+Dubreuil, G., Magliano, M., Deleury, E., Abad, P., Rosso, M.N., 2007. Transcriptome analysis of root-knot nematode functions induced in the early stages of parasitism. New Phytol 176, 426-436.<br>
+Emes, R., Thompson, F., Moore, J., Zang, X., Devaney, E., 2002. Cloning and characterisation of mmc-1, a microfilarial-specific gene, from Brugia pahangi. Int J Parasitol 32, 415-424.<br>
+Evans, H., Mello, L.V., Fang, Y., Wit, E., Thompson, F.J., Viney, M.E., Paterson, S., 2008. Microarray analysis of gender- and parasite-specific gene transcription in Strongyloides ratti. Int J Parasitol 38, 1329-1341.<br>
+Gal, T.Z., Glazer, I., Koltai, H., 2003. Differential gene expression during desiccation stress in the insect-killing nematode Steinernema feltiae IS-6. J Parasitol 89, 761-766.<br>
+Grenier, E., Blok, V.C., Jones, J.T., Fouville, D., Mugniery, D., 2002. Identification of gene expression differences between Globodera pallida and G.'mexicana' by suppression subtractive hybridization. Mol Plant Pathol 3, 217-226.<br>
+Hao, Y.J., Montiel, R., Abubucker, S., Mitreva, M., Simoes, N., 2010. Transcripts analysis of the entomopathogenic nematode Steinernema carpocapsae induced in vitro with insect haemolymph. Mol. Biochem. Parasitol. 169, 79-86.<br>
+Harcus, Y.M., Parkinson, J., Fernandez, C., Daub, J., Selkirk, M.E., Blaxter, M.L., Maizels, R.M., 2004. Signal sequence analysis of expressed sequence tags from the nematode Nippostrongylus brasiliensis and the evolution of secreted proteins in parasites. Genome Biol 5, R39.<br>
+He, H., Cheng, M., Yang, X., Meng, J., He, A., Zheng, X., Li, Z., Guo, P., Pan, Z., Zhan, X., 2009. Preliminary molecular characterization of the human pathogen Angiostrongylus cantonensis. BMC Mol Biol 10, 97.<br>
+Jacob, J., Mitreva, M., Vanholme, B., Gheysen, G., 2008. Exploring the transcriptome of the burrowing nematode Radopholus similis. Mol Genet Genomics 280, 1-17.<br>
+Jones, J.T., Kumar, A., Pylypenko, L.A., Thirugnanasambandam, A., Castelli, L., Chapman, S., Cock, P.J., Grenier, E., Lilley, C.J., Phillips, M.S., Blok, V.C., 2009. Identification and functional characterization of effectors in expressed sequence tags from various life cycle stages of the potato cyst nematode Globodera pallida. Mol Plant Pathol 10, 815-828.<br>
+Kikuchi, T., Aikawa, T., Kosaka, H., Pritchard, L., Ogura, N., Jones, J.T., 2007. Expressed sequence tag (EST) analysis of the pine wood nematode Bursaphelenchus xylophilus and B. mucronatus. Mol. Biochem. Parasitol. 155, 9-17.<br>
+Li, B.W., Rush, A.C., Mitreva, M., Yin, Y., Spiro, D., Ghedin, E., Weil, G.J., 2009. Transcriptomes and pathways associated with infectivity, survival and immunogenicity in Brugia malayi L3. BMC Genomics 10, 267.<br>
+Lizotte-Waniewski, M., Tawe, W., Guiliano, D.B., Lu, W., Liu, J., Williams, S.A., Lustigman, S., 2000. Identification of potential vaccine and drug target candidates by expressed sequence tag analysis and immunoscreening of Onchocerca volvulus larval cDNA libraries. Infect Immun 68, 3491-3501.<br>
+Meldal, B.H., Debenham, N.J., De Ley, P., De Ley, I.T., Vanfleteren, J.R., Vierstraete, A.R., Bert, W., Borgonie, G., Moens, T., Tyler, P.A., Austen, M.C., Blaxter, M.L., Rogers, A.D., Lambshead, P.J., 2007. An improved molecular phylogeny of the Nematoda with special emphasis on marine taxa. Mol Phylogenet Evol 42, 622-636.<br>
+Nisbet, A.J., Gasser, R.B., 2004. Profiling of gender-specific gene expression for Trichostrongylus vitrinus (Nematoda: Strongylida) by microarray analysis of expressed sequence tag libraries constructed by suppressive-subtractive hybridisation. Int J Parasitol 34, 633-643.<br>
+Nisbet, A.J., Redmond, D.L., Matthews, J.B., Watkins, C., Yaga, R., Jones, J.T., Nath, M., Knox, D.P., 2008. Stage-specific gene expression in Teladorsagia circumcincta (Nematoda: Strongylida) infective larvae and early parasitic stages. Int J Parasitol 38, 829-838.<br>
+Parkinson, J., Mitreva, M., Whitton, C., Thomson, M., Daub, J., Martin, J., Schmid, R., Hall, N., Barrell, B., Waterston, R.H., McCarter, J.P., Blaxter, M.L., 2004. A transcriptomic analysis of the phylum Nematoda. Nat Genet 36, 1259-1267.<br>
+Pellerone, F.I., Archer, S.K., Behm, C.A., Grant, W.N., Lacey, M.J., Somerville, A.C., 2003. Trehalose metabolism genes in Caenorhabditis elegans and filarial nematodes. Int J Parasitol 33, 1195-1206.<br>
+Rabelo, E.M., Hall, R.S., Loukas, A., Cooper, L., Hu, M., Ranganathan, S., Gasser, R.B., 2009. Improved insights into the transcriptomes of the human hookworm Necator americanus--fundamental and biotechnological implications. Biotechnol Adv 27, 122-132.<br>
+Ranganathan, S., Nagaraj, S.H., Hu, M., Strube, C., Schnieder, T., Gasser, R.B., 2007. A transcriptomic analysis of the adult stage of the bovine lungworm, Dictyocaulus viviparus. BMC Genomics 8, 311.<br>
+Srinivasan, J., Otto, G.W., Kahlow, U., Geisler, R., Sommer, R.J., 2004. AppaDB: an AcedB database for the nematode satellite organism Pristionchus pacificus. Nucleic Acids Res 32, D421-422.<br>
+Stein, L.D., Bao, Z., Blasiar, D., Blumenthal, T., Brent, M.R., Chen, N., Chinwalla, A., Clarke, L., Clee, C., Coghlan, A., Coulson, A., D'Eustachio, P., Fitch, D.H., Fulton, L.A., Fulton, R.E., Griffiths-Jones, S., Harris, T.W., Hillier, L.W., Kamath, R., Kuwabara, P.E., Mardis, E.R., Marra, M.A., Miner, T.L., Minx, P., Mullikin, J.C., Plumb, R.W., Rogers, J., Schein, J.E., Sohrmann, M., Spieth, J., Stajich, J.E., Wei, C., Willey, D., Wilson, R.K., Durbin, R., Waterston, R.H., 2003. The Genome Sequence of Caenorhabditis briggsae: A Platform for Comparative Genomics. PLoS Biol 1, E45.<br>
+Vercauteren, I., Geldhof, P., Peelaers, I., Claerebout, E., Berx, G., Vercruysse, J., 2003. Identification of excretory-secretory products of larval and adult Ostertagia ostertagi by immunoscreening of cDNA libraries. Mol Biochem Parasitol 126, 201-208.<br>
+Wasmuth, J., Schmid, R., Hedley, A., Blaxter, M., 2008. On the extent and origins of genic novelty in the phylum nematoda. PLoS Negl Trop Dis 2, e258.<br>
+Yin, Y., Martin, J., McCarter, J.P., Clifton, S.W., Wilson, R.K., Mitreva, M., 2006. Identification and analysis of genes expressed in the adult filarial parasitic nematode Dirofilaria immitis. Int J Parasitol 36, 829-839.<br>
+
+</p>
+
+<!-- InstanceEndEditable -->
+
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd --></html>

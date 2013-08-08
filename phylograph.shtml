@@ -1,0 +1,69 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE3 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase3_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase3_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+
+<blockquote>
+<table width=450 border=0 cellspacing=0 link="#0000FF" vlink="#0000FF">
+<tr><td  align=center>
+SimiTri</td></tr><tr><td><br>
+ is a new tool currently 
+being developed which displays the the phylogenetic profiles for
+a large number of clusters on one graphic (see examples below).
+It has recently been made available to view selections of clusters
+from the <a href="/nembase3/nembase.php">
+annotation</a>search page.
+<br><br>
+
+How it works
+For each cluster, the consensus sequence was BLASTXed against a range 
+of different protein databases - Archaebacteria, Drosophila, Saccharomyces 
+cerevisiae, C. elegans, Mus musculus, Plasmodium falciparum, Xenopus laevis, 
+Danio rerio, Eubacteria, Nematodes incl. C.elegans, Nematodes excl. C.elegans
+and Non nematode proteins. BLAST scores in excess of 50 (our 'significance
+cutoff') were extracted in addition to the highest e-value and imported
+into NEMBASE. 
+SimiTri takes these values and uses them to draw a graphic in the 
+form of a three-node graph.<br><br>
+To launch the 
+application, simply select SimiTri under the output options and select
+the three databases to be used for making the comparisons. The selected
+clusters will then be used to generate a graphic and a list of clusters (see
+below).
+<br>
+<img src="/pictures/phylo.jpg">
+<br>
+From the above figure it can be seen that each node of the triangle represents 
+one set of sequences - C.elegans proteins, non-elegans nematode
+proteins and non-nematode proteins. The position of a cluster
+(represented as a single square coloured by the highest BLAST e-value) thus 
+represents its relatedness to each of the three categories (calculated 
+from the mean of the BLAST scores). The diagram below shows how the triangle
+may be interpreted.
+<br>
+<img src="/pictures/venn2.jpg">
+<br>
+Clusters found on the three vertices indicate that they do not have
+a significant blast hit against the database located on the opposite
+node. Clusters which were found to be unique (no significant blast score
+against the three dbs) and those which only had a significant score 
+for one database, are listed in a table below the graphic.<br><br>
+<br>
+</td></tr>
+<br><br>
+</table>
+</blockquote>
+<br><br>
+
+<!--#include virtual="/includes/nembase3_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>

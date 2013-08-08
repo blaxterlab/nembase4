@@ -1,0 +1,105 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+
+<table><tr><td>
+<table cellspacing=0 cellpadding=3 border=0>
+<tr><td  class="mainTitle">News updates</td></tr>
+<tr><td>&nbsp;</td></tr>
+<tr><td class="headSmall">
+<ul>
+<li>August 2008<br>NEMBASE4 beta launched containing 62 species and 679,480 ESTs<br><br>
+<li>01 September 2007<br>NEMBASE3 launched on new server architecture<br><br>
+<li>August 2007<br>NEMBASE3 interface reworked and beta testing commences<br><br>
+<li>March 2007<br>Annotation complete for NEMBASE3: predictions of proteins with prot4EST, families with MCL tribe and Domains with ProDom<br><br>
+<li>March 2005<br>NEMBASE3 contains 37 species<br><br>
+<li>March 2005<br>Database Freeze for NEMBASE3 development<br><br><br>
+<li>March 2005<br>NEMBASE2 development ceases<br><br>
+<li>September 2004<br>Nembase has been moved to a more powerful server. Nembase contains now datasets for 30 species.<br><br>
+<li>6th February 2003<br>Haemonchus contortus dataset updated.<br><br>
+<li>6th February 2003<br>Ascaris suum dataset updated.<br><br>
+<li>31st January 2003<br>Teladorsagia circumcincta dataset added.<br><br>
+<li>29th October 2002<br>Necator americanus dataset has been
+updated.<br><br>
+<li>16th October 2002<br>Toxocara canis dataset has been
+added.<br><br>
+<li>1st October 2002<br>Ascaris lumbricoides dataset has been
+added.<br><br> 
+<li>7th June 2002<br>You can now search the clusters by library
+expression for all nematodes hosted by NEMBASE.<br><br> 
+<li>21st February 2002<br>Protein translations for Ascaris, Brugia
+Onchocerca and Haemonchus datasets have been performed.  These pages
+(accesible off the cluster pages) are experimental please note the
+data is very much in flux.<br><br> 
+<li>5th February 2002<br>Funk annotation for Brugia added.<br><br> 
+<li>25th January 2002<br>Ascaris suum data updated.<br><br> 
+<li>7th January 2002<br>Trichuris muris data updated.<br><br> 
+<li>3rd January 2002<br>Haemonchus contortus data updated.<br><br> 
+<li>3rd January 2002<br>Nippostrongylus brasiliensis dataset added.<br><br> 
+<li>3rd January 2002<br>Brugia malayi blast dated updated.<br><br> 
+
+<li>5th October 2001<br>PhyloView now available on the
+annotation search page for all nematode datasets. See
+<a href="http://xyala.cap.ed.ac.uk/nembase3/phylograph.html"> PhyloView
+</a>page for details.<br><br> 
+
+<li>5th October 2001<br>NEMBASE back on-line.<br><br> 
+
+<li>5th October 2001<br>NEMBASE temporarily unavailable due
+to software updating<br><br> 
+
+<li>17 September 2001<br>Haemonchus and Ascaris datasets
+updated.<br><br> 
+
+<li>14 September 2001<br>Trace data, where available is now
+accessible via the web interface. On the right side of the cluster view 
+graphic, a red box indicates the trace for this sequence is available,
+click to view. A blue box indicates no trace data is available
+(NB No trace data is currently available for Brugia or Onchocerca).<br><br> 
+
+<li>22 August 2001<br>Cluster alignment views available. By clicking 
+on the consensus in the contig view graphic, you will bring up a page showing 
+the sequence alignment used for generation of the cluster. The Consensus
+ sequence is coloured according to quality of prediction.<br><br> 
+
+<li>17 August 2001<br>Onchocerca clusters now available for searching,
+as with the Brugia clusters, the Oncho dataset numbering system 
+is consistent with previous published work.<br><br> 
+
+<li>13 August 2001<br>Clusters have been re-assembled using PHRAP to
+include quality data (where quality data is unavailable e.g. the majority of the
+brugia clusters, 'pseudo' quality scores of 15 and 50 have been assumed for EST
+and full length sequences respectively). This step has been taken as part of
+the process to generate peptide sequences from the data (work in progress).
+Consensi views now include quality information.<br><br> 
+
+<li>6 August 2001<br>Haemonchus clusters brought back online.<br><br> 
+<li>6 August 2001<br>Brugia malayi cluster numbering system
+now consistent with previous published cluster numbers.<br><br>
+<li>6 August 2001<br>Phyloview now offering a choice of datasets
+(see stage specificity search page).
+<br><br>
+<li>2 August 2001<br>Phyloview - New Java application to investigate the 
+phylogenetic relationships of groups of clusters. Accessible under the 
+Stage Specificity search page. N.B Only available to users running IE 5.0 or
+greater or Netscape 6. Other users can only obtain the static view.<br><br>
+<li>31 July 2001<br>
+Haemonchus Dataset temporarily removed due to problems
+in Blast output
+<br><br>
+</table></table>
+
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>

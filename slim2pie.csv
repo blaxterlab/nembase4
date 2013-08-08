@@ -1,0 +1,89 @@
+Process ontologies
+mRNA splicing	0;3|C;1|E;2|J;1|1;0|2;1|3;1|4;1|5;1|6;1|7;0|8;0|9;0|
+cell growth and/or maintenance	0;2524|C;771|E;1594|J;1079|1;350|2;538|3;634|4;711|5;498|6;469|7;588|8;22|9;390|
+catalase reaction	0;1|C;0|E;1|J;1|1;0|2;0|3;1|4;1|5;0|6;0|7;1|8;0|9;0|
+regulation of gene expression epigenetic	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;0|7;0|8;0|9;0|
+coenzymes and prosthetic group metabolism	0;12|C;4|E;4|J;5|1;4|2;1|3;2|4;1|5;1|6;1|7;3|8;0|9;2|
+cell communication	0;121|C;31|E;72|J;51|1;18|2;23|3;35|4;29|5;27|6;14|7;18|8;0|9;13|
+peroxidase reaction	0;3|C;0|E;3|J;0|1;0|2;0|3;0|4;2|5;1|6;0|7;0|8;0|9;0|
+histogenesis and organogenesis	0;1|C;0|E;1|J;0|1;0|2;1|3;0|4;0|5;0|6;0|7;0|8;0|9;0|
+death	0;5|C;1|E;3|J;3|1;1|2;2|3;1|4;0|5;1|6;0|7;2|8;0|9;0|
+morphogenesis	0;3|C;0|E;3|J;0|1;0|2;0|3;0|4;2|5;0|6;0|7;0|8;0|9;2|
+
+
+Function ontologies
+structural constituent of ribosome	0;172|C;109|E;137|J;104|1;45|2;60|3;49|4;72|5;88|6;90|7;93|8;6|9;65|
+cyclophilin	0;4|C;1|E;3|J;1|1;0|2;1|3;0|4;0|5;2|6;1|7;1|8;0|9;0|
+myosin ATPase	0;1|C;0|E;0|J;1|1;0|2;0|3;1|4;0|5;0|6;0|7;0|8;0|9;0|
+toxin	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;0|7;0|8;0|9;0|
+DNA-directed RNA polymerase III	0;1|C;1|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;1|7;0|8;0|9;1|
+vitamin binding	0;1|C;0|E;1|J;0|1;0|2;1|3;0|4;0|5;0|6;0|7;0|8;0|9;0|
+sodium:dicarboxylate/tricarboxylate cotransporter	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;0|5;1|6;0|7;0|8;0|9;0|
+lipid binding	0;13|C;3|E;5|J;7|1;2|2;0|3;4|4;4|5;1|6;1|7;5|8;0|9;1|
+isoprenoid binding	0;7|C;2|E;7|J;5|1;0|2;1|3;1|4;4|5;1|6;2|7;4|8;0|9;4|
+defense/immunity protein	0;1|C;1|E;0|J;0|1;1|2;0|3;0|4;0|5;0|6;0|7;0|8;0|9;0|
+plasma membrane cation-transporting ATPase	0;3|C;0|E;2|J;1|1;0|2;0|3;1|4;2|5;0|6;0|7;0|8;0|9;0|
+kinase regulator	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;0|7;0|8;0|9;0|
+tumor antigen	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;0|7;0|8;0|9;0|
+apoptosis regulator	0;5|C;1|E;1|J;3|1;0|2;0|3;0|4;1|5;0|6;1|7;3|8;0|9;0|
+carbohydrate transporter	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;0|5;0|6;0|7;0|8;0|9;1|
+FK506-sensitive peptidyl-prolyl cis-trans isomerase	0;12|C;4|E;7|J;5|1;1|2;1|3;1|4;4|5;2|6;3|7;4|8;0|9;0|
+calcium ion storage	0;4|C;0|E;3|J;2|1;0|2;1|3;2|4;2|5;2|6;0|7;0|8;0|9;0|
+receptor	0;105|C;21|E;68|J;41|1;8|2;33|3;29|4;17|5;16|6;15|7;20|8;0|9;13|
+electron transporter	0;3|C;0|E;1|J;2|1;0|2;0|3;0|4;0|5;1|6;0|7;2|8;0|9;0|
+helicase	0;13|C;1|E;9|J;4|1;0|2;1|3;3|4;5|5;3|6;1|7;1|8;0|9;1|
+carbohydrate binding	0;54|C;16|E;35|J;20|1;8|2;7|3;5|4;19|5;13|6;8|7;15|8;0|9;7|
+globin	0;5|C;2|E;5|J;3|1;1|2;2|3;1|4;2|5;0|6;1|7;2|8;0|9;2|
+acyl-CoA or acyl binding	0;4|C;0|E;4|J;1|1;0|2;1|3;0|4;1|5;0|6;0|7;1|8;0|9;3|
+small protein activating enzyme	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;0|5;0|6;0|7;0|8;0|9;1|
+oxygen binding	0;1|C;0|E;0|J;1|1;0|2;0|3;1|4;0|5;0|6;0|7;0|8;0|9;0|
+iron-sulfur electron transfer carrier	0;3|C;0|E;2|J;1|1;0|2;0|3;1|4;0|5;2|6;0|7;0|8;0|9;0|
+carrier	0;172|C;61|E;116|J;84|1;26|2;49|3;50|4;44|5;42|6;44|7;51|8;2|9;43|
+protein transporter	0;6|C;1|E;1|J;5|1;1|2;0|3;3|4;1|5;0|6;0|7;3|8;0|9;0|
+structural constituent of peritrophic membrane (sensu Insecta)	0;3|C;1|E;2|J;0|1;1|2;1|3;0|4;1|5;0|6;0|7;0|8;0|9;1|
+Fe3S4/Fe4S4 electron transfer carrier	0;7|C;0|E;6|J;2|1;0|2;5|3;2|4;3|5;1|6;0|7;1|8;0|9;1|
+dynein ATPase	0;1|C;0|E;0|J;1|1;0|2;0|3;1|4;0|5;0|6;0|7;0|8;0|9;0|
+electron transfer flavoprotein	0;15|C;2|E;11|J;9|1;1|2;5|3;9|4;8|5;2|6;1|7;1|8;0|9;1|
+glycopeptide hormone	0;3|C;1|E;1|J;1|1;1|2;0|3;1|4;1|5;0|6;0|7;0|8;0|9;0|
+secreted phospholipase A2	0;5|C;2|E;1|J;2|1;1|2;0|3;2|4;0|5;1|6;1|7;0|8;0|9;0|
+nucleotide binding	0;230|C;79|E;138|J;114|1;37|2;55|3;79|4;60|5;55|6;48|7;55|8;2|9;30|
+hydrolase	0;476|C;137|E;307|J;189|1;81|2;80|3;73|4;153|5;85|6;54|7;123|8;5|9;72|
+ephrin	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;0|7;0|8;0|9;0|
+receptor signaling protein	0;5|C;1|E;4|J;3|1;0|2;0|3;3|4;2|5;2|6;1|7;0|8;0|9;0|
+steroid binding	0;3|C;0|E;2|J;1|1;0|2;0|3;1|4;1|5;0|6;0|7;0|8;0|9;1|
+selenium binding	0;3|C;1|E;0|J;2|1;1|2;0|3;1|4;0|5;0|6;0|7;1|8;0|9;0|
+nucleic acid binding	0;286|C;67|E;164|J;110|1;19|2;52|3;81|4;71|5;47|6;50|7;38|8;1|9;22|
+isomerase	0;23|C;6|E;15|J;8|1;1|2;6|3;4|4;8|5;3|6;4|7;5|8;1|9;4|
+structural constituent of eye lens	0;9|C;3|E;6|J;2|1;3|2;2|3;1|4;1|5;3|6;0|7;1|8;0|9;0|
+proteasome endopeptidase	0;12|C;6|E;7|J;4|1;3|2;4|3;1|4;1|5;1|6;4|7;3|8;0|9;2|
+structural constituent of cytoskeleton	0;50|C;24|E;32|J;35|1;12|2;19|3;26|4;21|5;6|6;14|7;25|8;1|9;8|
+cytosolic phospholipase A2	0;2|C;1|E;1|J;0|1;1|2;0|3;0|4;0|5;0|6;0|7;0|8;0|9;1|
+peptide hormone	0;1|C;0|E;1|J;0|1;0|2;0|3;0|4;1|5;0|6;0|7;0|8;0|9;0|
+receptor-associated protein	0;2|C;0|E;2|J;0|1;0|2;1|3;0|4;0|5;1|6;0|7;0|8;0|9;0|
+channel/pore class transporter	0;17|C;4|E;8|J;7|1;2|2;3|3;4|4;2|5;0|6;3|7;3|8;0|9;3|
+aa3-type cytochrome c oxidase	0;1|C;0|E;0|J;1|1;0|2;0|3;1|4;0|5;0|6;0|7;1|8;0|9;0|
+ligase	0;36|C;17|E;24|J;11|1;10|2;10|3;8|4;6|5;7|6;8|7;5|8;1|9;5|
+extracellular matrix structural constituent	0;2|C;1|E;1|J;2|1;1|2;1|3;1|4;0|5;0|6;0|7;1|8;0|9;0|
+lectin	0;3|C;0|E;1|J;2|1;0|2;1|3;1|4;0|5;0|6;0|7;1|8;0|9;1|
+oxidoreductase	0;192|C;56|E;114|J;71|1;29|2;36|3;39|4;49|5;31|6;28|7;38|8;1|9;19|
+ion transporter	0;68|C;20|E;38|J;33|1;7|2;11|3;14|4;17|5;14|6;15|7;19|8;0|9;7|
+neurotransmitter binding	0;2|C;0|E;2|J;0|1;0|2;1|3;0|4;0|5;1|6;0|7;0|8;0|9;0|
+transferase	0;160|C;30|E;96|J;57|1;13|2;30|3;34|4;34|5;32|6;18|7;27|8;0|9;15|
+lyase	0;40|C;9|E;28|J;16|1;6|2;12|3;14|4;9|5;4|6;3|7;4|8;0|9;7|
+small protein conjugating enzyme	0;12|C;4|E;7|J;6|1;3|2;2|3;3|4;3|5;2|6;2|7;3|8;0|9;2|
+enzyme inhibitor	0;48|C;12|E;33|J;17|1;4|2;12|3;8|4;15|5;9|6;7|7;10|8;1|9;9|
+amine/polyamine transporter	0;2|C;0|E;1|J;1|1;0|2;0|3;1|4;0|5;0|6;0|7;0|8;0|9;1|
+two-component response regulator	0;2|C;1|E;2|J;0|1;0|2;0|3;0|4;1|5;0|6;1|7;0|8;0|9;1|
+heavy metal binding	0;87|C;28|E;66|J;34|1;4|2;9|3;28|4;37|5;12|6;24|7;9|8;0|9;29|
+chaperone	0;25|C;3|E;14|J;11|1;0|2;2|3;9|4;5|5;4|6;3|7;2|8;0|9;6|
+oxygen transporter	0;6|C;2|E;3|J;5|1;2|2;2|3;4|4;1|5;0|6;1|7;3|8;0|9;2|
+protein binding	0;104|C;38|E;62|J;47|1;25|2;27|3;33|4;27|5;16|6;15|7;19|8;0|9;7|
+redox-active disulfide bond electron carrier	0;1|C;1|E;0|J;0|1;1|2;0|3;0|4;0|5;0|6;0|7;0|8;0|9;0|
+
+
+Compartment ontologies
+extracellular space	0;2|C;0|E;2|J;1|1;0|2;0|3;1|4;1|5;1|6;0|7;1|8;0|9;0|
+extracellular matrix	0;61|C;13|E;42|J;23|1;5|2;20|3;16|4;12|5;13|6;8|7;7|8;0|9;4|
+unlocalized	0;41|C;15|E;33|J;16|1;4|2;1|3;13|4;21|5;5|6;11|7;3|8;0|9;17|
+intracellular	0;1158|C;410|E;766|J;542|1;191|2;291|3;307|4;361|5;251|6;265|7;338|8;15|9;218|
+membrane	0;613|C;141|E;382|J;252|1;59|2;113|3;141|4;151|5;127|6;85|7;134|8;3|9;75|

@@ -1,0 +1,29 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+
+<TABLE class="tablephp4">
+   <TR>
+      <TD><div class="mainTitle">CladeC nematodes</div></TD>
+   </TR>
+   <TR>
+      <TD>Chromadorid nematodes are all (as far as is known) freeliving. There are no ESTs currently available from any chromadorid. In molecular
+         analyses, Chromadorea includes the "subclass" or "subphylum" Secernentea of morphological phylogenies (Secernentea includes 
+         <A HREF="../nembase4/cladeIII.shtml">clade III</a>, <A HREF="../nembase4/cladeIV.shtml">clade IV</a> and <A HREF="../nembase4/cladeV.shtml">clade V</a>).
+      </TD>
+   </TR>
+</TABLE>
+
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>

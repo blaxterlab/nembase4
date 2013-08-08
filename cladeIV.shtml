@@ -1,0 +1,84 @@
+<<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+
+<TABLE class="tablephp4">
+   <TR>
+      <TD><div class="mainTitle">CladeIV nematodes</div></TD>
+   </TR>
+   <TR>
+      <TD>
+         Clade IV includes both freeliving and parasitic nematodes. The are vertebrate parasites, while the Tylenchida include many
+         major plant parasites. The clade also includes pathogens of insects, and the freeliving Cephalobina and Panagrolaimida.<br><br>
+      </TD>
+   </TR>
+   <TR>
+      <TD>
+         <TABLE class="tablephp4">
+            <TR >
+               <TD></TD>
+               <TD></TD>
+               <TD>description</TD>
+               <TD>EST effort</TD>
+            </TR>
+            <tr></tr>
+            <TR >
+               <TD ><i>Strongyloides ratti</I><br><IMG SRC="species/SRC.jpg" WIDTH=45 HEIGHT=45></td>
+               <TD ></TD>
+               <TD ><I>S. ratti </I>is a rodent parasite used as a model of the human parasite <I>S. stercoralis.</I></TD>
+               <TD > ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Strongyloides stercoralis</I><br><IMG SRC="species/SSC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>S. stercoralis </I>is a human parasite infecting over 0.5 billion people.</TD>
+               <TD >ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Globodera rostochiensis</I><br><IMG SRC="species/GRC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ></TD>
+               <TD >ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Meloidogyne javanica</I><br><IMG SRC="species/MJC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ></TD>
+               <TD >ESTs are being sequenced in Washington university St Louis. </TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Meloidogyne incognita</I><br><IMG SRC="species/MIC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ></TD>
+               <TD >ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+            <tr height=20></tr>
+            <TR >
+               <TD ><i>Zeldia punctata</I><br><IMG SRC="species/ZPC.jpg" WIDTH=45 HEIGHT=45></TD>
+               <TD ></TD>
+               <TD ><I>Z. punctata</I> is a freeliving bacteriovore.</TD>
+               <TD >ESTs are being sequenced in Washington university St Louis.</TD>
+            </TR>
+         </TABLE>
+      </TD>
+   </TR>
+</TABLE>
+
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>

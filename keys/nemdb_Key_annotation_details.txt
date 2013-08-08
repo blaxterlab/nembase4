@@ -1,0 +1,47 @@
+BLASTx v Uniprot
+Top hit from a BLAST search with the consensus sequence against
+the Uinprot database.  
+Quoted score is the BLAST e-value. 
+http://www.ncbi.nlm.nih.gov/BLAST/
+http://www.ebi.uniprot.org/
+
+BLASTx v wormpep
+Top hit from a BLAST search with the consensus sequence against 
+the wormpep database
+Quoted score is the BLAST e-value
+http://www.sanger.ac.uk/Projects/C_elegans/
+
+GO: Gene Ontology
+Top hit from a BLAST search with the prdicted protein sequence 
+against the GO database. 
+Quoted score is the BLAST e-value
+http://www.geneontology.org/GO.database.shtml
+
+KEGG: Kyoto Encyclopedia of Genes and Genomes
+Top hit from a BLAST search with the predicted protein sequence
+against the KEGG pathway database.
+Quoted score is the BLAST e-value. 
+http://www.genome.jp/kegg/
+
+EC: Encyme Commision
+Top hit from a BLAST search with the predicted protein sequence
+against the EC database.
+http://www.chem.qmul.ac.uk/iubmb/enzyme/
+
+InterProScan
+Search of multiple databases with the predicted protein 
+sequence using either HMMER or BLAST search method to find 
+protein domains and functional sites.
+Quoted score is the search method e-value.
+http://www.ebi.ac.uk/InterProScan/
+Databases searched by InterProScan
+PROSITE
+PRINTS
+Pfam
+ProDom
+SMART
+TIGRFAMs
+PIR superfamily
+SUPERFAMILY
+Gene3D
+PANTHER

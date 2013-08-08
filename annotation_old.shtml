@@ -1,0 +1,250 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+
+<!-- ben 21/08/08 removed blastn option and output by simitri by changing radio to hidden--> 
+
+<html><!-- InstanceBegin template="/Templates/nembase4.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+
+	    <!-- InstanceBeginEditable name="Bodyeditregion" -->
+<script type="text/javascript" src="species_selection.js"></script>
+<style type="text/css">	<!--.show {display:block;}.hide {display:none;}--></style>
+<script type="text/javascript"><!--
+	window.onload=function() {
+		objblast=document.getElementById('BLAST');if (document.forms.varform.varin[0].checked){}else{objblast.className='hide';}
+		objblast2=document.getElementById('BLAST2');if (document.forms.varform.varin[0].checked && document.forms.varform.out[0].checked){}else{objblast2.className='hide';}
+		objgo=document.getElementById('GO');if (document.forms.varform.varin[1].checked){}else{objgo.className='hide';}
+		objkegg=document.getElementById('KEGG');if (document.forms.varform.varin[2].checked){}else{objkegg.className='hide';}
+		objec=document.getElementById('EC');if (document.forms.varform.varin[3].checked){}else{objec.className='hide';}
+		objdom=document.getElementById('DOM');if (document.forms.varform.varin[4].checked){}else{objdom.className='hide';}
+		objsim=document.getElementById('simi');if (document.forms.varform.out[1].checked){}else{objsim.className='hide';}
+		objbit=document.getElementById('bit');if (document.forms.varform.datatype[0].checked){}else{objbit.className='hide';}
+		objexp=document.getElementById('exp');if (document.forms.varform.datatype[1].checked){}else{objexp.className='hide';}
+		rad=document.getElementsByTagName('input');
+		for(c=0;c<rad.length;c++) {
+			if(rad[c].name=='varin') {rad[c].onclick=function()	{
+				if(this.value==1) {objblast.className='show';objblast2.className='show';objgo.className='hide';objkegg.className='hide';objec.className='hide';objdom.className='hide';}
+				else if (this.value==2) {objblast.className='hide';objblast2.className='hide';objgo.className='show';objkegg.className='hide';objec.className='hide';objdom.className='hide';}
+				else if (this.value==3) {objblast.className='hide';objblast2.className='hide';objgo.className='hide';objkegg.className='show';objec.className='hide';objdom.className='hide';}
+				else if (this.value==4) {objblast.className='hide';objblast2.className='hide';objgo.className='hide';objkegg.className='hide';objec.className='show';objdom.className='hide';}
+				else if (this.value==5) {objblast.className='hide';objblast2.className='hide';objgo.className='hide';objkegg.className='hide';objec.className='hide';objdom.className='show';}
+				else {objblast.className='hide';objblast2.className='hide';objgo.className='hide';objkegg.className='hide';objec.className='hide';objdom.className='hide';}
+			}}
+			if(rad[c].name=='out') {rad[c].onclick=function() {if(this.value==0) {
+																					objsim.className='hide';
+																					if(document.forms.varform.varin[0].checked) {objblast2.className='show';}
+																				}
+																				else {objsim.className='show';objblast2.className='hide';}
+			}}
+			if(rad[c].name=='datatype') {rad[c].onclick=function() {	if(this.value==0) {objbit.className='show';objexp.className='hide';}
+																						if(this.value==1) {objbit.className='hide';objexp.className='show';}
+			}}
+		}
+	}
+//--></script>
+
+<div class="mainTitle">Search NEMBASE4 for sequences with specified annotations</div><br>
+
+<div class="mainMed">
+  <div align="left">
+    <p>You can search NEMBASE4 for sequences using the precomputed annotations we have generated using a wide range of tools, including sequence similarity (using BLAST), gene ontology descriptors (using <a href="../bioinformatics/annot8r/index.shtml">annot8r</a>), Kyoto Encyclopaedia of Genes and Genomes pathway data (using <a href="../bioinformatics/annot8r/index.shtml">annot8r</a>), Enzyme Commision identifiers (using <a href="../bioinformatics/annot8r/index.shtml">annot8r</a>) and domain composition (using interPro scan and other tools).</p>
+    <p>Use the form below to enter key words and parameters for searching.<br>
+      &bull; first select the annotation type<br>
+      &bull; then enter the parameters in the pop-in fields; <br>
+      &bull;
+      then (optionally) select a subset of species to search; <br>
+      &bull;
+      then select an output option<br>
+      Finally click "Search" (at the bottom of the page).</p>
+    <p><br>
+      <span class="mainMed">To perform another search, please reload this page from the menu to the left, to clear any fields you may have entered previously.      </span> </p>
+  </div>
+</div>
+
+<form id="varform" method="post" action="../nembase4/annotation_search.php">
+<!--<form id="varform" method="post" action="test.php">-->
+	<table class="tablephp2">
+		<tr>
+			<td>
+				<table width=100% border="0" cellspacing="0">
+					<tr>
+							<td width=200 valign="top"><span class="mainBig">&nbsp;&nbsp;Annotation Type</span></td>
+							<td><span class="mainBig">Detailed parameters for search</span> <span class="mainMed">(the relevant fields will pop-in when you choose a type)</span><br>
+							  <span class="mainSmall">Tip: if you want <font color=red>actin</font>, but not inter<font color=red>actin</font>g, use spaces in the search text field</span></td>
+					</tr>
+					<tr>
+					  <td valign="top" class="mainMed">&nbsp;
+					    <input type="radio" name="varin" value=1>BLAST hit description</td><td class="mainMed" id="BLAST">
+							<table>
+								<tr>
+									<!--td width=357 valign="top"><input TYPE="checkbox" NAME="prog[]" checked VALUE="blastx">
+								  BLASTX <span class="mainSmall">(protein hits)</span>&nbsp;&nbsp;&nbsp;</td-->
+								  <td width=190 valign="top" class="mainMed"><input type="text" style="width:60px;" name="evaltxt">
+									  <br>
+							      minimum E-value <span class="mainSmall">(e.g. 1e-10)</span></td>
+								  <td width=150 valign="top"><input name="scoretxt" type="text" style="width:60px;" size="10">
+									  <br>
+							        <span class="mainMed">minimum Score </span><span class="mainSmall">(e.g. 100)</span></td>
+								<td width=251 valign="top" class="mainMed"><input name="blstxt" type="text" size="30">
+									  <br>
+							      search text</td>
+								</tr>
+							</table>
+					  </td>
+					</tr>
+					<tr>
+					  <td valign="top" class="mainMed">&nbsp;
+					    <input type="radio" name="varin" value=2>GOtcha description</td><td class="mainMed" id="GO">
+							<table>
+								<tr>
+								  <td width=191 valign="top"> <input TYPE="radio" NAME="go" VALUE="0" checked>
+								    <span class="mainMed">Description </span><span class="mainSmall">[e.g. &quot;actin binding&quot;]</span><span class="mainMed"> <br>
+															    <input TYPE="radio" NAME="go" VALUE="1">
+							      GO id </span><span class="mainSmall">[e.g.GO:0019207] </span></td>
+								  								  <td width=150 valign="top" class="mainMed"> <input name="conf" type="text" style="width:60px;" size="10">
+									<br>
+								  minimum E-value <span class="mainSmall">(e.g. 1e-10)</span></td><td width=250 valign="top" class="mainMed"> <input name="gotxt" type="text" size="30">
+									  <br>
+							      search text</td>
+
+								</tr>
+							</table>
+					  </td>
+					</tr>
+					<tr>
+					  <td valign="top" class="mainMed">&nbsp;
+					    <input type="radio" name="varin" value=3>KEGG</td><td class="mainMed" id="KEGG">
+							<table>
+								<tr>
+								  <td width=345 valign="top" class="mainMed"><input TYPE="radio" NAME="kegg" VALUE="0" checked>								    
+								    Description <span class="mainSmall">[e.g. &quot;Apoptosis&quot;] </span><br>
+																		<input TYPE="radio" NAME="kegg" VALUE="1">
+																		pathway number <span class="mainSmall">[e.g. &quot;04210&quot;]</span><br>
+																		<input TYPE="radio" NAME="kegg" VALUE="2">
+							      KEGG orthology number <span class="mainSmall">[e.g. &quot;K04739&quot;]</span></td>
+								  <td width=250 valign="top" class="mainMed"><input name="keggtxt" type="text" size="30">
+									  <br>
+							      search text</td>
+								</tr>
+							</table>
+					  </td>
+					</tr>
+					<tr>
+					  <td valign="top" class="mainMed">&nbsp;
+					    <input type="radio" name="varin" value=4>Enzyme Commission</td><td class="mainMed" id="EC">
+							<table>
+								<tr>
+								  <td width=345 valign="top" class="mainMed"><input TYPE="radio" NAME="ec" VALUE="0" checked>
+								    description <span class="mainSmall">[e.g. &quot;cGMP-dependentproteinkinase&quot;]</span> <br>
+								    <input TYPE="radio" NAME="ec" VALUE="1">
+								  number <span class="mainSmall">[e.g. 	&quot;2.7.11.12&quot;]</span></td>
+								  <td width=250 valign="top" class="mainMed"><input name="ectxt" type="text" size="30">
+									  <br>
+							      search text</td>
+								</tr>
+							</table>
+					  </td>
+					</tr>
+					<tr>
+					  <td valign="top" class="mainMed">&nbsp;
+					    <input type="radio" name="varin" value=5>Domain <span class="mainSmall">[this segment of the database is not yet fully populated]						</span></td>
+					  <td class="mainMed" id="DOM">
+							<table>
+								<tr>
+								  <td width=345 valign="top" class="mainMed"><input TYPE="radio" NAME="ip" VALUE="0" checked>
+								    Interpro description <span class="mainSmall">[e.g. &quot;actin-binding&quot;]</span> <br>
+								    <input TYPE="radio" NAME="ip" VALUE="1">
+								  Domain ID <span class="mainSmall">[e.g. &quot;IPR000595&quot; or &quot;PF00027&quot;]</span></td>
+								  <td width=250 valign="top" class="mainMed"><input name="iptxt" type="text" size="30">
+									  <br>
+							      search text</td>
+								</tr>
+							</table>
+					  </td>
+					</tr>
+				</table>
+				<table>
+	
+						<!--#include virtual="species_db_queries.php" -->
+	
+				</table>
+				<table width=100%>
+					<tr>
+						<td width=200 valign="top">  <!--show this cell always with this content-->						
+							<div><div class="mainBig">Output by:</div>
+							  <label><input type="radio" name="out" value=0 checked />
+							  <span class="mainMed">table of sequences</span></label>
+								<br>
+								<label><input TYPE="hidden" NAME="out" VALUE=0 /><!--as SimiTri--></label><br><br><br>
+							</div>
+					  </td>
+						<td valign=top>  <!--show this cell with variable content-->
+
+							<table width=400 id="BLAST2">	<!--show this div if out==0 i.e. table of clusters-->
+								<tr>
+								  <td>
+										<div class="mainBig">Order results by</div>
+									    <span class="mainMed">
+									    <input TYPE="radio" NAME="order" VALUE="0" checked>
+									    sequence abundance<br>
+									    <input TYPE="radio" NAME="order" VALUE="1" >
+								      BLAST e-value									</span></td>
+									<td>
+										<div class="mainBig">Report</div>
+										<span class="mainMed">
+										<input TYPE="radio" NAME="hits" VALUE="0" checked>
+										all hits<br>
+										<input TYPE="radio" NAME="hits" VALUE="1">
+										1st hit only									</span></td>
+								</tr>
+							</table>
+
+							<div id="simi"><table><!--show this div if out==1 i.e. simitri-->
+								<tr>
+								  <td width=400>	<!--while out==1 show this cell always with this content-->
+										<div class="mainBig">Select data type</div>
+									    <span class="mainMed">
+									    <label>
+									    <input TYPE="radio" NAME="datatype" VALUE=0 checked/>
+									    BLAST bit score</label>
+									    <br>
+									    <label>
+									    <input TYPE="radio" NAME="datatype" VALUE=1 />
+									    sequence expression</label>
+									    <br>
+									    <br>
+									    <br>									
+								      </span></td>
+									<td valign="top" width=800><!--while out==1 show this cell with variable content-->
+										<div id="bit"><div class="mainBig">Select databases to compare</div><!--#include virtual="simi_bit_db_selector.php" --></div>		<!--while out==1 show this div if datatype==0 i.e. bitscore-->
+										<div id="exp"><div class="mainBig">Select data groups to compare</div><!--#include virtual="simi_exp_db_selector.php" --></div>		<!--while out==1 show this div if datatype==1 i.e. expression-->
+									</td>
+								</tr>
+							</table></div>
+
+						</td>
+					</tr>
+					<tr height=20></tr>
+					<tr>
+						<td colspan=3 valign=top>
+							<center><input TYPE="submit" VALUE="Search">&nbsp;&nbsp;
+							</center>
+						</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</form>
+
+<!-- InstanceEndEditable -->
+
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd --></html>

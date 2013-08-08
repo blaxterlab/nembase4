@@ -1,0 +1,36 @@
+BLAST v Uniprot
+Top hit from a BLAST search with the consensus sequence against
+the Uinprot database.  
+Quoted score is the BLAST e-value. 
+http://www.ncbi.nlm.nih.gov/BLAST/
+http://www.ebi.uniprot.org/
+
+GOtcha (slim)
+The fourth level Gene Ontology (GO) term, asigned by GOtcha, 
+with the highest confidence.
+Quoted score is the GOtcha confidence where 100 is highly 
+confident and 1 is not confident.
+
+KEGG: Kyoto Encyclopedia of Genes and Genomes
+Top hit from a BLAST search with the predicted protein sequence
+against the KEGG pathway database.
+Quoted score is the BLAST e-value. 
+http://www.genome.jp/kegg/
+
+InterProScan
+Search of multiple databases with the predicted protein 
+sequence using either HMMER or BLAST search method to find 
+protein domains and functional sites.
+Quoted score is the search method e-value.
+http://www.ebi.ac.uk/InterProScan/
+Databases searched by InterProScan
+PROSITE
+PRINTS
+Pfam
+ProDom
+SMART
+TIGRFAMs
+PIR superfamily
+SUPERFAMILY
+Gene3D
+PANTHER

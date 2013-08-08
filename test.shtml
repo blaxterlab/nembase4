@@ -1,0 +1,43 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/nembase4.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+
+	    <!-- InstanceBeginEditable name="Bodyeditregion" -->
+ 
+<div class="mainTitle">Species information</div><br><br>
+
+<table>
+	<tr>
+		<td width=450>
+			<table cellspacing=0 cellpadding=3 border=0><tr>
+<td><IMG SRC="/nembase4/species/XIC.jpg" WIDTH=150 HEIGHT=150 ALIGN=bottom></td>
+<td width=300><I>Xiphinema index</I><br><br><br>
+<A HREF="/nembase4/search_results.shtml?organism=XIC" target="_top" onMouseOver="hiLite('img01','but2')" onMouseOut="hiLite('img01','but1')"><IMG ALT="View all clusters" NAME="img01" SRC="/nembase4/species/viewall_nembase4.jpg" width=150 height=40 border=0></A></td></tr></table><hr>
+<table cellspacing=0 cellpadding=3 border=0><tr><td width=450 colspan=2>Details</td></tr>
+<tr><td>Total number of sequences</td><td>9283</td></tr>
+<tr><td>Number of NEMBASE clusters</td><td>4591</td></tr>
+
+<tr><td>Number of Libraries</td><td>7</td></tr>
+<tr><td>Phylogeny</td><td><a href="/nembase4/cladeI.shtml" target="_top">Clade I</a></td></tr>
+<tr valign=top><td>Links</td><td><a href="/nembase4/index.shtml" target="_top">NEMBASE4</A><br>
+<a href="/nembase4/stats.shtml" target="_top">Library statistics</A><br><a href="http://www.nematode.net/Species.Summaries/Xiphinema.index/index.php" target="_top">Nematode.net @ G.S.C.</a></td></tr>
+</table>
+<hr><table><tr valign=top><td colspan=2>Contacts</td><td></td></tr>
+<tr><td>GSC Washington University St. Louis</td><td><a href="mailto:jmccarte@watson.wustl.edu">Jim McCarter</a></td></tr>
+
+</table>
+		</td>
+	</tr>
+</table>
+
+<!-- InstanceEndEditable -->
+
+<!--#include virtual="/includes/nembase4_body_lower.ssi" --></body>
+<!-- InstanceEnd --></html>

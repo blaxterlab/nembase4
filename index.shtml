@@ -1,0 +1,96 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html><!-- InstanceBegin template="/Templates/nembase4.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<style type="text/css">
+<!--
+.style1 {color: #FF0033}
+-->
+</style>
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+
+	    <!-- InstanceBeginEditable name="Bodyeditregion" -->
+
+<div class="mainTitle">
+  <div align="left">What is NEMBASE4?</div>
+</div>
+
+	  <p>
+	  NEMBASE is a resource for nematode transcriptome analysis, and a research tool for nematode biology, drug discovery and vaccine design.	  </p>
+	  <p>NEMBASE4 was constructed by Ben Elsworth using the PartiGene suite of tools, with assistance from James Wasmuth and Mark Blaxter.<br>
+	    Any questions, please contact <a href="mailto:nematode.bioinf@ed.ac.uk">Mark Blaxter</a>. <br>
+	    </p>
+	  <div class="mainTitle">
+	Searching NEMBASE4 and retrieving data
+	</div>
+    <p>You can search NEMBASE4 using the links on the navigation bar to the left.<br>
+	To download NEMBASE4 datasets click <a href="/downloads/databases/NEMBASE4/index.shtml" target="_top">here</a> <br>
+	To download PartiGene and other software click <a href="../bioinformatics/index.shtml" target="_top">here</a>.</p>
+	<div class="mainTitle">
+	NEMBASE4: Current Status
+	</div>
+	<p><blockquote>
+	<table class="tablephp4">
+	<!--#include virtual="species_db_queries.php" -->
+	</table>
+	</blockquote>
+	 <a href="nembase4contents.shtml">See here for a data summary by species, and sources of data. </a> <br>
+	<a href="overview.shtml" target="_top">Click here for Species Specific Information.</a>
+    <br>
+    </p>
+	<div class="mainTitle">
+    NEMBASE Publications
+	</div>
+	<blockquote>
+	  <p>
+	    <a href="http://www.sciencedirect.com/science/article/pii/S0020751911001044"><span class="style1">JUST PUBLISHED</span> NEMBASE4: The nematode transcriptome resource (open access article)</a><br>
+	    Benjamin Elsworth, James Wasmuth and Mark Blaxter. International Journal for Parasitology Volume 41, Issue 8, July 2011, Pages 881-894 </p>
+	  <p><a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?artid=2432500">On the Extent and Origins of Genic Novelty in the Phylum Nematoda.</a>
+	    <br>
+	    Wasmuth J, Schmid R, Hedley A, Blaxter M.  PLoS Neglected Tropical Diseases  (2008). Jul 2(7):e258.</p>
+	  <p><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=search&term=A transcriptomic analysis of the phylum Nematoda">A transcriptomic analysis of the phylum Nematoda</a>.<br>
+	    Parkinson, J., M. Mitreva, et al. (2004). Nature Genetics 36(12): 1259-67.</p>
+	  <p><a href="http://www.pubmedcentral.nih.gov/articlerender.fcgi?tool=pubmed&pubmedid=14681449">
+	    NEMBASE: a resource for parasitic nematode ESTs.</a>
+	    <br>
+	    Parkinson J, Whitton C, Schmid R, Thomson M, Blaxter M.  (2004). Nucleic Acids Res. 32(Database issue):D427-30.<br>
+	    This previous release is still available at <a href="http://www.nematodes.org/nembase3/">NEMBASE3</a><br>
+	  </p>
+	  </blockquote>
+	<p>NEMBASE4 is built using the PartiGene Suite of EST analysis tools:</p>
+	<blockquote>
+	  <p><a href="http://www.ncbi.nlm.nih.gov/entrez/query.fcgi?db=pubmed&cmd=Retrieve&dopt=AbstractPlus&list_uids=14988115&query_hl=1&itool=pubmed_docsum">PartiGene--constructing partial genomes.</a>
+	    <br>
+	    Parkinson J, Anthony A, Wasmuth J, Schmid R, Hedley A, Blaxter M. (2004). Bioinformatics  20:1398-404. Epub 2004 Feb 26.</p>
+	  <p><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=search&term=prot4EST%3A translating expressed sequence tags from neglected genomes.">prot4EST: Translating Expressed Sequence Tags from neglected genomes</a><br>
+	    Wasmuth, J. D. and M. L. Blaxter (2004).  BMC Bioinformatics 5: 187.</p>
+	  <p><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=search&term=Making sense of EST sequences by CLOBBing them">Making sense of EST sequences by CLOBBing them</a><br>
+	    Parkinson, J., D. B. Guiliano, et al. (2002).  BMC Bioinformatics 3: 31.        </p>
+          <p><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=search&term=400000 nematode ESTs on the Net">400000 nematode ESTs on the Net</a>.<br>
+            Parkinson, J., M. Mitreva, et al. (2003). Trends Parasitol 19: 283-6.        </p>
+          <p><a href="http://www.ncbi.nlm.nih.gov/sites/entrez?db=pubmed&cmd=search&term=200000 nematode expressed sequence tags on the Net">200000 nematode expressed sequence tags on the Net</a><br>
+            Parkinson, J., C. Whitton, et al. (2001). Trends Parasitol 17: 394-396.</p>
+	</blockquote>
+	<div class="mainTitle">Other Nematode Genomics Sites </div>
+        <table>
+          <tr>
+            <td><div align="right"><a href="http://www.nematode.net/" target="_blank"><img src="/images/nematode_net.png" width="355" height="42"></a></div></td>
+            <td>Our sister site, <a href="http://www.nematode.net/" target="_blank">nematode.net</a>, at the University of Washington Genome Sequenciung Centre, also offers nematode EST analyses.</td>
+          </tr>
+          <tr>
+            <!--td><img src="http://www.wormbase.org/images/image_new_colour.jpg" width="355" height="42"></td-->
+	    <td><a href="http://www.wormbase.org/" style="text-decoration: none" target="_blank"><font size="5">&nbsp;&nbsp;<b>WormBase</b></font></a></td></div>
+            <td>The <em>Caenorhabditis elegans, Caenorhabditis briggsae, Caenorhabditis remanei</em> and <em>Brugia malayi</em> genomes are browsable through WormBase <a href="http://www.wormbase.org">http://www.wormbase.org</a></td>
+          </tr>
+        </table>
+        <p align="center">NEMBASE is maintained by Mark Blaxter</p>
+        <!-- InstanceEndEditable -->
+
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd --></html>

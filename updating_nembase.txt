@@ -1,0 +1,93 @@
+Note - original files for nemdb3 are in:
+
+/data/seq_tables/ - real format
+
+
+Get Species
+
+1.  Create directory est_solutions.
+2.  Genereate nematode EST source page from NCBI:
+             - Search Taxonomy for Nematoda
+             - Display 10 levels
+             - Nucleotide EST
+3.  Run www.taxparser.pl on source (note would be much better to just output fasta files for existing species as separate seq files aren't necessary for part 9.
+4.  Run download_txdlist2.pl on output of 3 within est_solutions directory
+
+#### note this seems to be outputing more files than EST number on NCBI, might have to run Partigene for each species as this appears to download correct number of sequences - problem appears to be that download_txdlist2.pl downloads mRNA as well as ESTs, just need to edit line 29 ###
+
+PartiGene
+
+5.  For new species run Partigene.pl within species directory
+6.  For species already present in nemdb run psql2txt.pl on nemdb to generate 'XXX'EST files for each species using the following sql command.
+             - perl psql2txt.pl nemdb3 "select est.est_id ||' '|| clus_id,sequence from est,est_seq where clus_id ~ 'XXX' and est.est_id = est_seq.est_id" XXXEST fasta;
+        - Note, need to be logged in as postgres but within home directory
+7.  Place each EST file in appropriate species directory.
+8.  Create hash of nemdb EST identifiers.
+9.  Run ncbi_vs_nemdb_bioperl.pl which removes sequences from each species sequence folder and adds only new ones.
+10.  If there are no new species then ncbi_vs_nemdb wont work as it will leave the sequences folder empty.  In this case run Partigene_restart.pl in PartiGene folder
+        - NOTE!!!!! if species ESTS ans Clusters already generated and added to database, then if you want to replace them, then you have to delete both est and est_seq tables!!!!!
+11. Run Partigene.pl on updated species, starting at Pre-process sequences step.
+12.  Add all info to new database.
+ 
+
+BLAST
+
+12.  Run first step on Partigene BLAST to produce BLAST .txt output file
+13.  Run this on eddie and store results in named blast directories (e.g. uniref100) within blast directory for each species (run shell script to generate these)
+                sge_blastall -i blast_input/blast_input_AYC.txt -d /exports/work/blast/uniref100.fasta -o blast_output/AYC_uniref.out -p blastx -b 5 -v 5 -e 1e-8 -N 500; sleep 3;
+            - NOTE, if blast file is concatenated run blast_to_many.pl specifying parameters, e.g. blast_to_many.pl -d wormpep/ -s "out" wormpep/ZPC_wormpep.out
+14a.  Store results in DB
+14b.  Note, hit value is not present, add column to blast table then add values using pg_blasthit.pl (NOTE!!! - need to install Pg.pm -> sudo apt-get install libpg-perl)
+
+prot4EST
+
+15.  Set config file to use protein directory and BLAST results for each species (prot4EST_config_maker.pl)
+        - if doesnt work try with another species by manually changing the config file
+16.  Store results in DB
+
+annot8r
+
+17.  Take all protein predictions from prot4EST and BLAST against uniprotEC/KEGG/GO then run annot8r.pl to update to DB.
+    - see annot8r_blast.sh (or blast_db_maker.sh to generate single cat file of all peptides)
+18.  REMEMBER!!!!! Put all blast output (even from blast farm) in blast_out within directory you are running annot8r.pl from otherwise it will not work!!!!
+    - Also, doesn't seem to like running all together, do one at a time or fix it! 
+
+NemPep
+
+19.  Is the complete set of protein predictions generated from prot4EST
+
+NemFam
+
+20.  Blast protein database against itself (fasta file against created DB) and use this as input for MCL (Tribe).
+    - take all the peptide seqs predicted through p4e, make into fasta file and then formatdb it
+    - blastp this file against the database of itself
+    - blastall -i prot4EST_output.fsa -d nempep -o nempep_prac -p blastp -b 20 -v 20 -e 1e-08;
+
+Interpro
+
+21.  A tool that combines different protein signature recognition methods native to the InterPro member databases into one resource with look up of corresponding InterPro and GO annotation.
+    - setup, run sudo perl Config.pl
+    - feed in protein predictions and parse through output and update to db.
+    - needs to be run on eddie, but note that it requires 22gb of space - remember to run with qsub at front of command to put job on separate node,
+          e.g. qsub iprscan -cli -i prot4EST_output/translations_xtn.fsa -iprlookup -goterms -f raw > interproscan.out
+            - setting output file name (> test.out) is necessary otherwise it crashes
+            - f chooses output format to be tab-delim
+    - to add to db use interproscan_parser.pl
+
+sex_count and stage_count tables
+
+22.   Create sex_count and stage_count tables using appropriate psql
+        -Run sex_stage_count_table_builder.pl to populate sex_count and stage_count tables using lib data
+
+ Nembase
+
+23.  Update all scripts to coincide with changes and developments of PartiGene, prot4EST, annot8r....
+24.  Update species_db by copying over species table from nemdb4 and updating using relevant commands.
+            - run add_directories_and_file_to_species_db.pl to update directory name to match species name
+25.  Current scripts require info from signalp and psort
+        - install local version of signalp
+        - run signalp_for_each_species.sh
+        - database using signalp_db.pl
+26.  Need to setup dbs to run with webuser:          
+        psql <databasename>
+        grant select on blast,clone_name,cluster,est,est_seq,lib,p4e_hsp,p4e_ind,p4e_loc,species to webuser;

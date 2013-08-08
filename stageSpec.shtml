@@ -1,0 +1,87 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+<!-- InstanceBegin template="/Templates/bang.dwt" codeOutsideHTMLIsLocked="false" -->
+<head>
+<!-- InstanceBeginEditable name="doctitle" -->
+<title> www.nematodes.org - NEMBASE4 </title>
+<script type="text/javascript" src="../nembase4/species_selection.js"></script><!-- InstanceEndEditable -->
+<script type="text/javascript" src="hide_show.js"></script>
+<!--#include virtual="/includes/nembase4_header.ssi" -->
+</head>
+<body>
+<!--#include virtual="/includes/nembase4_body_upper.ssi" -->
+<!-- InstanceBeginEditable name="BodyEditRegion" -->
+
+<div class="mainTitle">
+ 	Lifecycle stage NEMBASE4 search page
+  <p class="mainMed">(1) select species to search; (2) select proportion or actual; (3) select level of expression per lifecycle stage </p>
+</div>
+
+<form method="post" action="../nembase4/result_stage.php">
+	<table class="tablephp2">		
+		<tr>  
+			<td><div class="mainBig">
+			  <div align="center">Select growth stage EST expression levels</div>
+			</div></td>
+		</tr>
+		<tr>
+			<td align=left class="mainMed">Give information for your stages of interest. The values are either proportion (%) or actual counts of ESTs for that stage. Values of "9", ">2" (more than 2)  or "<5" (less than 5) are acceptable for selection. If you leave the stage box empty, the search will ignore ESTs from that stage. </td>
+		</tr>
+		<tr>
+			<td>
+				<div align="center"><input TYPE="radio" NAME="type" VALUE="0" checked>Proportion
+				<input TYPE="radio" NAME="type" VALUE="1" >Actual number</div>
+			</td>	
+		</tr>
+		<tr>
+			<td>
+				<table align="center">
+					<tr>
+						<td><input type="text" size="4" name="stage[]" value=""> eggs & embryos</td>
+						<td><input type="text" size="4" name="stage[]" value=""> larval L1</td>
+						<td><input type="text" size="4" name="stage[]" value=""> larval L2</td>
+						<td><input type="text" size="4" name="stage[]" value=""> larval L3 (including infective L3)</td>
+					<tr>
+					</tr>
+						<td><input type="text" size="4" name="stage[]" value=""> larval L4</td>
+						<td><input type="text" size="4" name="stage[]" value=""> adult</td>
+						<td><input type="text" size="4" name="stage[]" value=""> mixed</td>
+						<td><input type="text" size="4" name="stage[]" value=""> unknown</td>
+					</tr>
+				</table>
+			</td>
+		</tr>
+		<tr>
+			<td>
+					By default all species are selected, to manually select by clade or species <a href="javascript:toggle('hide')">click here</a>
+							<div id="hide" style="display: none;">
+								<table>
+								<tr>
+									<td valign="top"><input TYPE="hidden" NAME="spec" value ="0">
+										<!--#include virtual="species_db_queries.php" -->
+								   </td>
+							   </tr>
+						       </table>
+						   </div>
+			</td>
+		</tr>
+		<tr>
+			<td height="31">
+				<table align="center">
+					<tr>
+						<td>
+							<input TYPE="submit" VALUE="Search">
+						<td>
+					<tr>
+				</table>
+			</td>
+		</tr>
+	</table>
+</form>
+
+
+<!-- InstanceEndEditable -->
+<!--#include virtual="/includes/nembase4_body_lower.ssi" -->
+</body>
+<!-- InstanceEnd -->
+</html>
