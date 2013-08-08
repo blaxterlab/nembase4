@@ -1,0 +1,1 @@
+../../../cgi-bin/nembase4_blast.cgi
