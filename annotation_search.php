@@ -58,7 +58,7 @@ $output = 0;
 ############################################################
 ################ open the database #########################
 ############################################################
-$dbconn=pg_connect( "dbname=nemdb4 host=localhost port=5432 user=webuser password=ben" );
+$dbconn=pg_connect( "dbname=nemdb4 host=localhost port=5432 user=webuser" );
 if ( ! $dbconn ) {
     echo "Error connecting to the database !<br> " ;
     printf("%s", pg_errormessage( $dbconn ) );
