@@ -48,7 +48,6 @@ Contigs have been annotated using BLAST, [annot8r](http://www.nematodes.org/bioi
 |sex_count|Counts of EST per sex for each cluster|
 |signalp|Signal peptide information|
 |species|Species overview statistics|
-|sqlmapfile||
 |tribe| Tribe membership for each peptide|
 |tribe_info|Stats for each tribe ID|
 |tribe_node | Tribe node information |
