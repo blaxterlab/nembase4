@@ -31,7 +31,7 @@ Contigs have been annotated using BLAST, [annot8r](http://www.nematodes.org/bioi
 |est_seq| Seqeunce data for each EST|
 |genome_pep| Data for each peptide including species, data origin and sequence|
 |stage_count| Counts of ESTs per lifecycle stage for each cluster|
-|hit_table| | A combintation of cluster and BLAST information |
+|hit_table| A combintation of cluster and BLAST information |
 |interpro| InterProScan annotation results |
 |interpro_key| Mapping information for InterPro and domain IDs |
 |lib| EST Library information|
@@ -42,19 +42,16 @@ Contigs have been annotated using BLAST, [annot8r](http://www.nematodes.org/bioi
 |p4e_hsp| Prot4EST - information about high scoring pairs (HSPs)|
 |p4e_ind| Prot4EST - main information table for each predicted peptide |
 |p4e_loc| Prot4EST - details about the translation|
-|pathway_id2name||
-|pathway_map||
-|reciprocals||
-|sex_count||
-|signalp||
-|species||
+|pathway_id2name|KEGG ID to name map|
+|pathway_map| Enzyme ID to EC number map |
+|reciprocals| Reciprocal BLAST data|
+|sex_count|Counts of EST per sex for each cluster|
+|signalp|Signal peptide information|
+|species|Species overview statistics|
 |sqlmapfile||
-|tribe||
-|tribe_info||
-|tribe_node||
-|interpro_domid||
-|interprokey_domid||
-|interprokey_iprid||
+|tribe| Tribe membership for each peptide|
+|tribe_info|Stats for each tribe ID|
+|tribe_node | Tribe node information |
 
 ###### species_db4
 
