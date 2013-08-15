@@ -31,17 +31,17 @@ Contigs have been annotated using BLAST, [annot8r](http://www.nematodes.org/bioi
 |est_seq| Seqeunce data for each EST|
 |genome_pep| Data for each peptide including species, data origin and sequence|
 |stage_count| Counts of ESTs per lifecycle stage for each cluster|
-|hit_table| |
-|interpro||
-|interpro_key||
-|lib||
-|lib_count||
-|lib_key||
-|node2tribe||
-|node_stats||
-|p4e_hsp||
-|p4e_ind||
-|p4e_loc||
+|hit_table| | A combintation of cluster and BLAST information |
+|interpro| InterProScan annotation results |
+|interpro_key| Mapping information for InterPro and domain IDs |
+|lib| EST Library information|
+|lib_count| Counts of ESTs per library|
+|lib_key| More library / spcies information |
+|node2tribe| Tribe information for each node on the tribe_tree.php plot|
+|node_stats| Overall tribe stats for each node |
+|p4e_hsp| Prot4EST - information about high scoring pairs (HSPs)|
+|p4e_ind| Prot4EST - main information table for each predicted peptide |
+|p4e_loc| Prot4EST - details about the translation|
 |pathway_id2name||
 |pathway_map||
 |reciprocals||
