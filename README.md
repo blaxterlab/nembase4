@@ -57,7 +57,7 @@ Contigs have been annotated using BLAST, [annot8r](http://www.nematodes.org/bioi
 
 |Table|Description|
 |------|------|
-|info||
-|org||
-|species||
-|stats||
+|info| Detailed description of each species|
+|org| The origins of the data for each species|
+|species| Sequence, cluster and library counts for each species|
+|stats| Statistics for each species|
